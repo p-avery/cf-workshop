@@ -9,19 +9,15 @@ Tags and Categories examples
 Categories are the parent and the tag is the child, so we will create them as the following
 
 
-| Category     | Tag          |
-|--------------|--------------|
-| Environment  | DEV          |
-|              | QA           |
-| OS           | PROD         |
-|              |              |
-               | Linux        |
-               | Windows      |
-               |              |
-Categories
-
-Environment
-OS
+| Category | Tag |
+|---|---|
+| Environment| DEV |
+| | QA |
+| | PROD |
+| ---| ---|
+| OS | Linux |
+| | Windows |
+            
 
 
 Like many commands, `ansible` allows for long-form options as well as short-form. For example:
