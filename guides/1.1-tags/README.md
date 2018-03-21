@@ -17,6 +17,22 @@ Categories are the parent and the tag is the child, so we will create them as th
 | OS | Linux |
 | | Windows |
             
+environment:
+    -> prod
+    -> qa
+    -> dev
+os:
+    -> linux
+    -> windows
+linux_app:
+    -> apache
+    -> nginx
+    -> mysql
+windows_app:
+    -> iis
+    -> mssql
+    
+    
 
 
 Like many commands, `ansible` allows for long-form options as well as short-form. For example:
