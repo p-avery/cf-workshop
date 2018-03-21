@@ -1,7 +1,28 @@
 # Exercise 1.1 - Creating Tags and Categories
 
-Tagging is the best approach when doing automation as we can use these tags to identify what the state of the instance should be, if it is a environnment tag ( Dev, QA, Prod ) Application tag ( Apache, Postgres ) 
-For our first exercise, we are going to run some ad-hoc commands to help you get a feel for how Ansible works. Ansible Ad-Hoc commands enable you to perform tasks on remote nodes without having to write a playbook. They are very useful when you simply need to do one or two things quickly and often, to many remote nodes.
+For our first exercise, we are going to setup some categories and tags, these will be used throughout the workshop and will help you understand not only how they help within CloudForms but also with other tools like Ansible Tower.
+
+Tags are the foundation when it comes to automation, you will see by assigning tags to instances we can then consistently ensure the state of an instance.
+
+Tags and Categories examples
+
+Categories are the parent and the tag is the child, so we will create them as the following
+
+
+| Category      | Tag           |
+| ------------- | ------------- |
+| Environment   | DEV           |
+| ------------- | QA            |
+| OS            | PROD          |
+| ------------- |-------------- |
+                | Linux         |
+                | Windows       |
+                | ------------- |
+Categories
+
+Environment
+OS
+
 
 Like many commands, `ansible` allows for long-form options as well as short-form. For example:
 
