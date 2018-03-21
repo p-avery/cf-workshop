@@ -9,15 +9,15 @@ Tags and Categories examples
 Categories are the parent and the tag is the child, so we will create them as the following
 
 
-| Category      | Tag           |
-| ------------- | ------------- |
-| Environment   | DEV           |
-|               | QA            |
-| OS            | PROD          |
-|               |               |
-                | Linux         |
-                | Windows       |
-                |               |
+| Category     | Tag          |
+|--------------|--------------|
+| Environment  | DEV          |
+|              | QA           |
+| OS           | PROD         |
+|              |              |
+               | Linux        |
+               | Windows      |
+               |              |
 Categories
 
 Environment
