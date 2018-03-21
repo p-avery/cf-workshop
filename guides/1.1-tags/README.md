@@ -24,30 +24,25 @@ Categories are the parent and the tag is the child, so we will create them as th
   - iis
   - mssql
     
-    
-
-
-Like many commands, `ansible` allows for long-form options as well as short-form. For example:
-
-```bash
-ansible control --module-name ping
-```
-
-is the same as running
-```
-ansible control -m ping
-```
-We are going to be using the short-form options throughout this workshop
 
 ## Table of Contents
- - [Step 1: Ping](#step-1-ping)
- - [Step 2: Command](#step-2-command)
+ - [Step 1: Tags setup](#step-1-tags_setup)
+ - [Step 2: Create Categories](#step-2-create_categories)
  - [Step 3: ios_facts](#step-3-ios_facts)
  - [Step 4: ios_command](#step-4-ios_command)
  - [Step 5: ios_banner](#step-5-ios_banner)
  - [Step 6: ios_banner removal](#step-6-ios_banner-removal)
 
-### Step 1: Ping
+### Step 1: Tags_setup
+
+After logging into CloudForms up in the top right corner is the name of the user logged in click on that and select Configuration.
+You will be in the settings section and it will display the settings for the appliance you are logged into, at the top of the accordian on the left under settings is **Settings Region: Region 0 [0]** click on this, You will now see the Tags Section, click into this.
+
+### Step 2: Create_Categories
+
+You will be under My Company Categories and the pre created categories will be present, to add new ones click under Name where is says <Click on this row to create a new category>
+
+
 
 Let’s start with something really basic - pinging a linux host. Note that this is not an ICMP ping but rather a python script being executed on the host.
 
