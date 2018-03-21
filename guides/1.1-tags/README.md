@@ -12,12 +12,12 @@ Categories are the parent and the tag is the child, so we will create them as th
 | Category      | Tag           |
 | ------------- | ------------- |
 | Environment   | DEV           |
-| ------------- | QA            |
+|               | QA            |
 | OS            | PROD          |
-| ------------- |-------------- |
+|               |               |
                 | Linux         |
                 | Windows       |
-                | ------------- |
+                |               |
 Categories
 
 Environment
