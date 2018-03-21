@@ -1,10 +1,13 @@
-## Welcome to GitHub Pages
+### CloudForms Lightbulb
+This content is a multi-purpose toolkit for effectively demonstrating CloudForms capabilities with provisioning / orchestrating, setting governance and reporting. This will be used in conjuction with informal workshop training in various-forms - instructor-lef, hands-on or self-paced.
 
-You can use the [editor on GitHub](https://github.com/p-avery/cf-workshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Presentation
+Want the Presentation Dec? it's right here: <link>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Diagram
 
-### Markdown
+
+### CloudForms Excersies
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
