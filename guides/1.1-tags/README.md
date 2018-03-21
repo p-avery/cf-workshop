@@ -8,14 +8,6 @@ Tags and Categories examples
 
 Categories are the parent and the tag is the child, so we will create them as the following
 
-
-| Category | Tag |
-|:---:|:---:|
-| Environment| DEV |
-| | QA |
-| | PROD |
-| OS | Linux |
-| | Windows |
             
 - environment:
   - prod
@@ -24,13 +16,13 @@ Categories are the parent and the tag is the child, so we will create them as th
 - os:
   - linux
   - windows
-linux_app:
-    -> apache
-    -> nginx
-    -> mysql
-windows_app:
-    -> iis
-    -> mssql
+- linux_app:
+  - apache
+  - nginx
+  - mysql
+- windows_app:
+  - iis
+  - mssql
     
     
 
