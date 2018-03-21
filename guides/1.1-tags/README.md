@@ -17,10 +17,10 @@ Categories are the parent and the tag is the child, so we will create them as th
 | OS | Linux |
 | | Windows |
             
-environment:
-    -> prod
-    -> qa
-    -> dev
+environment:\n
+    -> prod\n
+    -> qa\n
+    -> dev\n
 os:
     -> linux
     -> windows
