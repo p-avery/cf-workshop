@@ -18,12 +18,12 @@ Categories are the parent and the tag is the child, so we will create them as th
 | | Windows |
             
 environment:\n
-    -> prod\n
-    -> qa\n
-    -> dev\n
+    prod\n
+    qa\n
+    dev\n
 os:
-    -> linux
-    -> windows
+    linux
+    windows
 linux_app:
     -> apache
     -> nginx
